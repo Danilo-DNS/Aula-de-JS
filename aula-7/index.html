@@ -11,8 +11,10 @@
     <div class="container">
         
     <h1>Aperta o botão para ver a luta</h1>
-    <img src="/aula-7/img/toji.jpg" alt="" id="personagem">
-    <p><button onclick="trocar('toji.jpg')">Toji</button> <button onclick="trocar('coelho.jpg')">???</button></p>
+    <img src="/aula-7/img/toji.jpg" alt="" data-personagem="toji" id="personagem">
+    <p><button onclick="trocar('toji.jpg','Toji')">Toji</button> <button onclick="trocar('coelho.jpg','O ser mais forte')">???</button></p>
+
+    <button onclick="pegar()">Quem é esse pokemon</button>
 </div>
 <script src="/aula-7/algo.js"></script>
 </body>
