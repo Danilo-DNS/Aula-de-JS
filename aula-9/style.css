@@ -1,0 +1,19 @@
+body{
+    background-color: black;  
+}
+
+#valor{
+    color: white;
+}
+
+.contador{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+   
+}
+
+.button{
+width: 90px;
+height: 30px;
+}
