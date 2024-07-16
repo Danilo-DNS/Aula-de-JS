@@ -1,0 +1,13 @@
+.genero_icon{
+    width: 200px; 
+    
+}
+body{
+    
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

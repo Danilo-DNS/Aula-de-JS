@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora IMC</h1>
+    <br>
+    <img src="/aula-10/imc/img/boy.png" class="genero_icon" alt="" data-genero="Masculino" id="genero">
+    <select>
+        <option onclick="trocar('boy.png')">Masculino</option>
+        <option onclick="trocar('girl.png')">Feminino</option>
+        <option onclick="trocar('Trans.jfif')">Transgenero</option>
+    </select>
+
+    <h2>Altura: <input type="number" id="altura"></h2>
+    
+    <h2>Peso: <input type="number" id="peso"></h2>
+
+    <button onclick="calculo()">Calcular</button>
+    <script src="/aula-10/imc/code.js"></script>
+</body>
+</html>
